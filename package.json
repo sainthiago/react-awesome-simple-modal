@@ -1,6 +1,5 @@
 {
   "name": "react-simple-modal",
-  "version": "0.1.0",
   "description": "Simple library with Modal component for React",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
