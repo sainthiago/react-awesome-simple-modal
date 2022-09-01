@@ -1,5 +1,5 @@
-export interface ReactSimpleModalProps extends React.HTMLAttributes<HTMLDivElement> {
-  extraTopElement?: JSX.Element;
+export interface ReactSimpleModalProps
+  extends React.HTMLAttributes<HTMLDivElement> {
   open: boolean;
   onClose: () => void;
 }

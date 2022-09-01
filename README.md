@@ -6,14 +6,13 @@ Simple library with Modal component for React.
 
 ## Installation
 
-```npm i react-modal-box```
+`npm i react-modal-box`
 
 ## Demo
 
 ## API
 
-|   Property   |  Type  |    Description    |
-| :---         |     :---      |          :--- |
-| open     | boolean       | Trigger to open/close modal.    |
-| onClose    | () => void       | Handle modal closing action.|
-| extraTopElement    | JSX.Element      | Custom component for an element in the modal (optional).     |
+| Property | Type       | Description                  |
+| :------- | :--------- | :--------------------------- |
+| open     | boolean    | Trigger to open/close modal. |
+| onClose  | () => void | Handle modal closing action. |
