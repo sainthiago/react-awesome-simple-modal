@@ -6,7 +6,7 @@ Simple library with Modal component for React.
 
 ## Installation
 
-`npm i react-modal-box`
+`npm i react-awesome-simple-modal`
 
 ## Demo
 
