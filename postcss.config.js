@@ -1,16 +1,11 @@
-import postcss from "rollup-plugin-postcss";
-
 module.exports = {
-  plugins: [
-    postcss({
-      config: {
-        path: "./postcss.config.js",
-      },
-      extensions: [".css"],
-      minimize: true,
-      inject: {
-        insertAt: "top",
-      },
-    }),
-  ],
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+    "postcss-import": {},
+    "postcss-url": {
+      url: "inline",
+    },
+    cssnano: {},
+  },
 };
