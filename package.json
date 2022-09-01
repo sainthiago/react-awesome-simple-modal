@@ -1,5 +1,5 @@
 {
-  "name": "react-simple-modal",
+  "name": "react-modal-box",
   "description": "Simple library with Modal component for React",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sainthiago/react-simple-modal"
+    "url": "https://github.com/sainthiago/react-modal-box"
   },
   "author": "Rui Santiago",
   "license": "MIT",
