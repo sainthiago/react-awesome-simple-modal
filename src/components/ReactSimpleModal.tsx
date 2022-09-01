@@ -1,6 +1,8 @@
 import React, { useCallback, useEffect } from "react";
 import { ReactSimpleModalProps } from "../types/ReactSimpleModal";
 
+import "../styles/tailwind.css";
+
 const ReactSimpleModal = (props: ReactSimpleModalProps) => {
   const { open, onClose, children } = props;
 
@@ -39,9 +41,9 @@ const ReactSimpleModal = (props: ReactSimpleModalProps) => {
               <img
                 onClick={onClose}
                 className="w-6 h-6 md:w-8 md:h-8 cursor-pointer"
-                src="/assets/close.svg"
+                src={require("./close.svg")}
                 alt="Close"
-              />
+              />P
             </div>
             <div className="w-full" onClick={(e) => e.stopPropagation()}>
               {children}
