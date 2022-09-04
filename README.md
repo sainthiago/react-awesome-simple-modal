@@ -12,7 +12,8 @@ Simple library with Modal component for React.
 
 ## API
 
-| Property | Type       | Description                  |
-| :------- | :--------- | :--------------------------- |
-| open     | boolean    | Trigger to open/close modal. |
-| onClose  | () => void | Handle modal closing action. |
+| Property  | Type        | Description                          |
+| :-------- | :---------- | :----------------------------------- |
+| open      | boolean     | Trigger to open/close modal.         |
+| onClose   | () => void  | Handle modal closing action.         |
+| closeIcon | JSX.Element | Close icon for the modal (optional). |
