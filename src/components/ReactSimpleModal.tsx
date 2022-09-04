@@ -45,7 +45,6 @@ export const ReactSimpleModal = (props: ReactSimpleModalProps) => {
                 src={CloseIcon}
                 alt="Close"
               />
-              P
             </div>
             <div className="w-full" onClick={(e) => e.stopPropagation()}>
               {children}
