@@ -1,2 +1,1 @@
-import ReactSimpleModal from "./components/ReactSimpleModal";
-export default ReactSimpleModal;
+export { ReactSimpleModal } from "./components/ReactSimpleModal";

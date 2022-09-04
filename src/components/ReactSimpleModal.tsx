@@ -1,9 +1,10 @@
-import React, { useCallback, useEffect } from "react";
+import { useCallback, useEffect } from "react";
 import { ReactSimpleModalProps } from "../types/ReactSimpleModal";
+import CloseIcon from "./assets/close.svg";
 
 import "../styles/tailwind.css";
 
-const ReactSimpleModal = (props: ReactSimpleModalProps) => {
+export const ReactSimpleModal = (props: ReactSimpleModalProps) => {
   const { open, onClose, children } = props;
 
   const handleEscapeKey = useCallback(
@@ -41,9 +42,10 @@ const ReactSimpleModal = (props: ReactSimpleModalProps) => {
               <img
                 onClick={onClose}
                 className="w-6 h-6 md:w-8 md:h-8 cursor-pointer"
-                src={require("./close.svg")}
+                src={CloseIcon}
                 alt="Close"
-              />P
+              />
+              P
             </div>
             <div className="w-full" onClick={(e) => e.stopPropagation()}>
               {children}
@@ -54,5 +56,3 @@ const ReactSimpleModal = (props: ReactSimpleModalProps) => {
     </>
   );
 };
-
-export default ReactSimpleModal;
