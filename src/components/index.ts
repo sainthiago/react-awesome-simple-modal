@@ -1,0 +1,1 @@
+export { ReactSimpleModal } from "./ReactSimpleModal";

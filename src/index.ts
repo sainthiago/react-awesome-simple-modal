@@ -1,1 +1,2 @@
-export { ReactSimpleModal } from "./components/ReactSimpleModal";
+export * from "./components";
+export * from "./types";
